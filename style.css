@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+td {
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  border-collapse: collapse;
+  font-size: 8rem;
+  text-align: center;
+  width: 10rem;
+  height: 10rem;
+}
+table {
+  width: 30rem;
+  height: 30rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+td:last-child {
+  border-right: 0px;
+}
+tr:last-child td {
+  border-bottom: 0px;
+}
+div {
+  font-size: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50rem;
+  height: 8rem;
+  text-align: center;
+  line-height: 2.5rem;
+}
