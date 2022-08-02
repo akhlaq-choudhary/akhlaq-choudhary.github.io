@@ -40,13 +40,13 @@ function clearBoard() {
   }
 }
 function winCondition(e) {
-  if (value === "O" && !e.path[0].textContent) {
+  if (value === "O" && !e.target.textContent) {
     value = "X";
-    e.path[0].textContent = value;
+    e.target.textContent = value;
     count++;
-  } else if (value === "X" && !e.path[0].textContent) {
+  } else if (value === "X" && !e.target.textContent) {
     value = "O";
-    e.path[0].textContent = value;
+    e.target.textContent = value;
     count++;
   }
   if (count === 9) {
